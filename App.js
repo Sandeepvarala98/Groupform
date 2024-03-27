@@ -10,7 +10,6 @@ const App = () => {
 
   return (
     <div>
-      <h1>Expense Tracker</h1>
       {/* Render the PersonForm component */}
       <PersonForm onAddPerson={handleAddPerson} />
     </div>
