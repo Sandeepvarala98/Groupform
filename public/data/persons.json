@@ -1,12 +1,37 @@
 [
   {
+    "type" : "module",
     "id": 1,
-    "name": "",
-    "user_name": "",
-    "pwd": "",
+    "name": "Naveen",
+    "user_name": "Navi",
+    "pwd": "123",
     "expenses": [
       {
-
+        
+      }
+    ]
+  },
+  {
+    "type" : "module",
+    "id": 2,
+    "name": "Prathyusha",
+    "user_name": "Pathu",
+    "pwd": "1",
+    "expenses": [
+      {
+        
+      }
+    ]
+  },
+  {
+    "type" : "module",
+    "id": 3,
+    "name": "Sandeep",
+    "user_name": "Sandy",
+    "pwd": "3",
+    "expenses": [
+      {
+        
       }
     ]
   }
