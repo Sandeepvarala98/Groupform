@@ -1,19 +1,13 @@
 import React from 'react';
-import PersonForm from './personform'; // Import the PersonForm component
+import Group from "./Group";
 
 const App = () => {
-  // Define a function to handle adding a new person
-  const handleAddPerson = (newPerson) => {
-    // Logic to handle adding a new person
-    console.log('New person added:', newPerson);
-  };
-
-  return (
+return (
     <div>
-      {/* Render the PersonForm component */}
-      <PersonForm onAddPerson={handleAddPerson} />
+        <Group/>
     </div>
-  );
+)
+    
 };
 
 export default App;
